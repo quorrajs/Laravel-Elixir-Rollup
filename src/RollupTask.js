@@ -24,10 +24,6 @@ class RollupTask extends Elixir.Task {
         super(name, null, paths);
 
         this.options = options;
-
-        if (fs.existsSync('rollup.config.js')) {
-            this.rollupConfig = require(process.cwd()+'/rollup.config.js');
-        }
     }
 
     /**
@@ -94,7 +90,7 @@ class RollupTask extends Elixir.Task {
                 }),
                 buble()
             ]
-        }, this.rollupConfig, this.options))
+        }, Elixir.config.rollup, this.options))
     }
 }
 

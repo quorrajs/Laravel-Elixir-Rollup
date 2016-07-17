@@ -1,7 +1,7 @@
 {
-  "name": "laravel-elixir-rollup-official",
-  "version": "1.0.4",
-  "description": "Laravel Elixir Rollup integration.",
+  "name": "@positron/elixir-rollup",
+  "version": "0.0.1",
+  "description": "Quorra Elixir Rollup integration.",
   "main": "dist/index.js",
   "scripts": {
     "compile": "babel --presets=es2015 -d dist src",
@@ -13,6 +13,9 @@
     "rollup"
   ],
   "author": "Jeffrey Way",
+  "contributors": [
+    "Harish Anchu <harishanchu@gmail.com>"
+  ],
   "license": "MIT",
   "dependencies": {
     "buble": "^0.12.3",
