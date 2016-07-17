@@ -90,7 +90,7 @@ class RollupTask extends Elixir.Task {
                 }),
                 buble()
             ]
-        }, Elixir.config.rollup, this.options))
+        }, Elixir.config.js.rollup, this.options))
     }
 }
 

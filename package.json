@@ -1,6 +1,6 @@
 {
   "name": "@positron/elixir-rollup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Quorra Elixir Rollup integration.",
   "main": "dist/index.js",
   "scripts": {
